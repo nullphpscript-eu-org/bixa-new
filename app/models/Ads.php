@@ -23,7 +23,7 @@ class Ads extends CI_Model {
     function create($data) {
         $insert = [
             'ad_name' => $data['name'],
-            'ad_content' => $data['content'],
+            'ad_content' => html_entity_decode($data['content']),
             'ad_placement' => $data['placement'],
             'ad_status' => isset($data['status']) ? 'active' : 'inactive',
             'ad_created' => time()
@@ -36,7 +36,7 @@ class Ads extends CI_Model {
     function update($id, $data) {
         $update = [
             'ad_name' => $data['name'],
-            'ad_content' => $data['content'], 
+            'ad_content' => html_entity_decode($data['content']),
             'ad_placement' => $data['placement'],
             'ad_status' => isset($data['status']) ? 'active' : 'inactive'
         ];
