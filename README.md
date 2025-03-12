@@ -91,4 +91,4 @@ If you like project Bixa please donate [here]().
 
 ## ©️ Copyright
 
-Code released under [the GPL-2.0 license](LICENSE).
+This build is created and maintained by [Bixa Cloud](https://github.com/bixacloud/). Code released under [the GPL-2.0 license](LICENSE).
