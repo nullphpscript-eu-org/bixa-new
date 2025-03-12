@@ -51,7 +51,7 @@ Your server needs to meet the following minimum requirements to run Bixa:
 
 The installation of Bixa is much easier than you think!
 
-- Download the Bixa installation files [here](https://github.com/bixacloud/bixa/releases/latest). Alternatively, get the latest development version [here](https://github.com/bixacloud/bixa/archive/refs/heads/dev.zip).
+- Download the Bixa installation files [here](https://github.com/nullphpscript-eu-org/bixa-new/releases/latest). Alternatively, get the latest development version [here](https://github.com/nullphpscript-eu-org/bixa-new/archive/refs/heads/dev.zip).
 - Extract the ZIP file and upload the contents to your web hosting account.
 - Create a new database for Bixa.
 - Go to `https://{your.domain}/{bixa-directory}/install.php` and click on the 'Get Started' button.
@@ -87,7 +87,7 @@ Join our Telegram group at [Nullphpscript](https://t.me/NullphpscriptEuOrg) for 
 
 ### 👍 Like Bixa?
 
-If you like project Bixa please donate [here](https://bixa.app/DONATE.md).
+If you like project Bixa please donate [here]().
 
 ## ©️ Copyright
 
