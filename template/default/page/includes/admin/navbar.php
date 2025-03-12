@@ -31,7 +31,7 @@
             </div>
 
             <div class="d-flex align-items-center">
-                <a href="<?= base_url() ?>" class="btn btn-primary"><i data-feather="eye" class="icon-lg layout-mode-dark"></i> View Website</a>
+                <a href="<?= base_url() ?>" class="btn btn-primary" target="_blank"><i data-feather="eye" class="icon-lg layout"></i> View Website</a>
                 <!-- Theme Toggle Button -->
                 <div class="dropdown">
                     <button type="button" class="btn header-item" id="mode-setting-btn">
