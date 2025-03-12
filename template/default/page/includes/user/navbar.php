@@ -175,6 +175,7 @@
                     </div>
                 </div>
             </div>
+            <center><?php display_ad('sidebar'); ?></center>
         </div>
         <!-- Sidebar -->
 		</div>

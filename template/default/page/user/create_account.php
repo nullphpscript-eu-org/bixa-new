@@ -1,6 +1,7 @@
 <div class="main-content">
     <div class="page-content">
         <div class="container-fluid">
+        <center><?php display_ad('header'); ?></center>
             <!-- Title -->
             <div class="row">
                 <div class="col-12">
@@ -95,6 +96,7 @@
                     </div>
                 </div>
             </div>
+            <center><?php display_ad('footer'); ?></center>
         </div>
     </div>
 </div>

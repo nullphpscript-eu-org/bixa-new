@@ -2,7 +2,7 @@
 <div class="main-content">
     <div class="page-content">
         <div class="container-fluid">
-
+        <center><?php display_ad('header'); ?></center>
             <!-- Page Title -->
             <div class="row">
                 <div class="col-12">
@@ -279,6 +279,7 @@
                 </div>
             </form>
         </div>
+        <center><?php display_ad('footer'); ?></center>
     </div>
 </div>
 

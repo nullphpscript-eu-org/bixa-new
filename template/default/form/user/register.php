@@ -10,6 +10,7 @@
                                     <img src="<?= $this->base->get_slogo() ?>" alt="" height="50">
                                 </a>
                             </div>
+                            <center><?php display_ad('sidebar'); ?></center>
                             <div class="auth-content mt-2">
                              <div class="text-center">
                                             <h5 class="mb-0"><?= $this->base->text('welcome_reg', 'heading')?></h5>
@@ -27,24 +28,24 @@
                                     <div class="mb-3">
                                         <label class="form-label"><?= $this->base->text('password', 'label') ?></label>
                                         <div class="input-group auth-pass-inputgroup">
-    <input type="password" class="form-control" id="password" 
-           placeholder="<?= $this->base->text('password', 'label') ?>" 
-           name="password">
-    <button class="btn btn-light shadow-none ms-0" type="button" data-toggle="password">
-        <i class="fa fa-eye"></i>
-    </button>
-</div>
+                                            <input type="password" class="form-control" id="password" 
+                                                placeholder="<?= $this->base->text('password', 'label') ?>" 
+                                                name="password">
+                                            <button class="btn btn-light shadow-none ms-0" type="button" data-toggle="password">
+                                                <i class="fa fa-eye"></i>
+                                            </button>
+                                        </div>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label"><?= $this->base->text('confirm_password', 'label') ?></label>
                                         <div class="input-group auth-pass-inputgroup">
-    <input type="password" class="form-control" id="password1" 
-           placeholder="<?= $this->base->text('confirm_password', 'label') ?>" 
-           name="password1">
-    <button class="btn btn-light shadow-none ms-0" type="button" data-toggle="password1">
-        <i class="fa fa-eye"></i>
-    </button>
-</div>
+                                            <input type="password" class="form-control" id="password1" 
+                                                placeholder="<?= $this->base->text('confirm_password', 'label') ?>" 
+                                                name="password1">
+                                            <button class="btn btn-light shadow-none ms-0" type="button" data-toggle="password1">
+                                                <i class="fa fa-eye"></i>
+                                            </button>
+                                        </div>
                                     </div>
 
                                     <div class="mb-4">
@@ -91,6 +92,7 @@
                                     </p>
                                 </div>
                             </div>
+                            <center><?php display_ad('sidebar'); ?></center>
                             <div class="mt-4 mt-md-5 text-center">
                                 <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> <?= $this->base->text('made', 'paragraph') ?> <?= $this->base->get_hostname() ?></a></p>
                             </div>

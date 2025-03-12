@@ -10,6 +10,7 @@
                         <img src="<?= $this->base->get_slogo() ?>" alt="" height="50">
                                 </a>
                             </div>
+                            <center><?php display_ad('sidebar'); ?></center>
                             <div class="auth-content mt-3">
                                 <div class="text-center">
                                             <h5 class="mb-0"><?= $this->base->text('welcome', 'heading') ?></h5>
@@ -150,6 +151,7 @@
                                     </p>
                                 </div>
                             </div>
+                            <center><?php display_ad('sidebar'); ?></center>
                             <div class="mt-4 mt-md-5 text-center">
                                 <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> <?= $this->base->text('made', 'paragraph') ?> <?= $this->base->get_hostname() ?></a></p>
                             </div>

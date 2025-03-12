@@ -3,6 +3,7 @@
     <div class="page-content">
         <div class="container-fluid">
             <!-- Page title -->
+             <center><?php display_ad('header'); ?></center>
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
@@ -92,6 +93,7 @@
                     </div>
                 </div>
             </div>
+            <center><?php display_ad('footer'); ?></center>
         </div>
     </div>
 </div>

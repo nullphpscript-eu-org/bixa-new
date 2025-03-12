@@ -1,5 +1,5 @@
 
-    <style>
+<style>
        .pricing-card {
     position: relative;
     overflow: hidden;
@@ -76,7 +76,7 @@
         <div class="main-content">
             <div class="page-content">
                 <div class="container-fluid">
-
+                <center><?php display_ad('header'); ?></center>
                     <!-- start page title -->
                     <div class="row">
                         <div class="col-12">
@@ -365,6 +365,7 @@
         </div>
     </div>
 </div>
+<center><?php display_ad('footer'); ?></center>
 
             <!-- Footer -->
             <footer class="footer">

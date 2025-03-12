@@ -2,6 +2,7 @@
 <div class="main-content">
     <div class="page-content">
         <div class="container-fluid">
+        <center><?php display_ad('header'); ?></center>
             <!-- Page Title -->
             <div class="row">
                 <div class="col-12">
@@ -240,7 +241,7 @@
                     </div>
                 </div>
             <?php endif ?>
-
+            <center><?php display_ad('header'); ?></center>
         </div>
     </div>
 </div>
