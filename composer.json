@@ -1,0 +1,21 @@
+{
+    "name": "bixacloud/bixa",
+    "description": "Bixa The Next Evolution of XERA", 
+    "type": "project",
+    "license": "GPL-2.0",
+    "require": {
+        "php": ">=8.1.0"
+    },
+    "authors": [
+        {
+            "name": "Bixa Cloud",
+            "email": "hi@bixa.app"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
