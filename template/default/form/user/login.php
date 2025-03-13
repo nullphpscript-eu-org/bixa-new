@@ -81,66 +81,66 @@
                                 </form>
 
                              <!-- Social login buttons -->
-<div class="mt-4">
-    <div class="mt-4 text-center">
-        <div class="signin-other-title">
-            <h5 class="font-size-14 mb-3 text-muted fw-medium"><?= $this->base->text('social_login', 'paragraph') ?></h5>
-        </div>
-    </div>
-    <?php if($this->oauth->is_active('github')): ?>
-        <div class="mb-2">
-            <a href="https://github.com/login/oauth/authorize?client_id=<?= $this->oauth->get_client('github') ?>&scope=user,email" 
-               class="btn btn-dark w-100">
-                <i data-feather="github" class="icon-sm align-middle me-2"></i>
-                <?= $this->base->text('github', 'button') ?>
-            </a>
-        </div>
-    <?php endif; ?>
+                                <div class="mt-4">
+                                    <div class="mt-4 text-center">
+                                        <div class="signin-other-title">
+                                            <h5 class="font-size-14 mb-3 text-muted fw-medium"><?= $this->base->text('social_login', 'paragraph') ?></h5>
+                                        </div>
+                                    </div>
+                                    <?php if($this->oauth->is_active('github')): ?>
+                                        <div class="mb-2">
+                                            <a href="https://github.com/login/oauth/authorize?client_id=<?= $this->oauth->get_client('github') ?>&scope=user,email" 
+                                            class="btn btn-dark w-100">
+                                                <i data-feather="github" class="icon-sm align-middle me-2"></i>
+                                                <?= $this->base->text('github', 'button') ?>
+                                            </a>
+                                        </div>
+                                    <?php endif; ?>
 
-    <?php if($this->oauth->is_active('google')): ?>
-        <div class="mb-2">
-            <a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=<?= $this->oauth->get_client('google') ?>&scope=email profile&response_type=code&redirect_uri=<?= base_url('c/google_oauth') ?>"
-               class="btn btn-danger w-100">
-                <i data-feather="chrome" class="icon-sm align-middle me-2"></i>
-                <?= $this->base->text('google', 'button') ?>
-            </a>
-        </div>
-    <?php endif; ?>
+                                    <?php if($this->oauth->is_active('google')): ?>
+                                        <div class="mb-2">
+                                            <a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=<?= $this->oauth->get_client('google') ?>&scope=email profile&response_type=code&redirect_uri=<?= base_url('c/google_oauth') ?>"
+                                            class="btn btn-danger w-100">
+                                                <i class="fa-brands fa-google"></i>&nbsp;&nbsp;
+                                                <?= $this->base->text('google', 'button') ?>
+                                            </a>
+                                        </div>
+                                    <?php endif; ?>
 
-    <?php if($this->oauth->is_active('facebook')): ?>
-        <div class="mb-2">
-            <a href="https://www.facebook.com/v12.0/dialog/oauth?client_id=<?= $this->oauth->get_client('facebook') ?>&scope=email,public_profile&redirect_uri=<?= base_url('c/facebook_oauth') ?>"
-               class="btn btn-primary w-100">
-                <i data-feather="facebook" class="icon-sm align-middle me-2"></i>
-                <?= $this->base->text('facebook', 'button') ?>
-            </a>
-        </div>
-    <?php endif; ?>
-  <?php if($this->oauth->is_active('discord')): ?>
-    <div class="mb-2">
-        <a href="https://discord.com/api/oauth2/authorize?client_id=<?= $this->oauth->get_client('discord') ?>&redirect_uri=<?= urlencode(base_url('c/discord_oauth')) ?>&response_type=code&scope=identify%20email"
-           class="btn btn-secondary w-100">
-            <i data-feather="message-circle" class="icon-sm align-middle me-2"></i>
-            <?= $this->base->text('discord', 'button') ?>
-        </a>
-    </div>
-<?php endif; ?>
+                                    <?php if($this->oauth->is_active('facebook')): ?>
+                                        <div class="mb-2">
+                                            <a href="https://www.facebook.com/v12.0/dialog/oauth?client_id=<?= $this->oauth->get_client('facebook') ?>&scope=email,public_profile&redirect_uri=<?= base_url('c/facebook_oauth') ?>"
+                                            class="btn btn-primary w-100">
+                                                <i data-feather="facebook" class="icon-sm align-middle me-2"></i>
+                                                <?= $this->base->text('facebook', 'button') ?>
+                                            </a>
+                                        </div>
+                                    <?php endif; ?>
+                                <?php if($this->oauth->is_active('discord')): ?>
+                                    <div class="mb-2">
+                                        <a href="https://discord.com/api/oauth2/authorize?client_id=<?= $this->oauth->get_client('discord') ?>&redirect_uri=<?= urlencode(base_url('c/discord_oauth')) ?>&response_type=code&scope=identify%20email"
+                                        class="btn btn-secondary w-100">
+                                            <i data-feather="message-circle" class="icon-sm align-middle me-2"></i>
+                                            <?= $this->base->text('discord', 'button') ?>
+                                        </a>
+                                    </div>
+                                <?php endif; ?>
 
-<?php if($this->oauth->is_active('microsoft')): ?>
-    <div class="mb-2">
-        <a href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=<?= $this->oauth->get_client('microsoft') ?>&redirect_uri=<?= urlencode(base_url('c/microsoft_oauth')) ?>&response_type=code&scope=User.Read%20email%20offline_access"
-           class="btn btn-info w-100">
-            <i data-feather="grid" class="icon-sm align-middle me-2"></i>
-            <?= $this->base->text('microsoft', 'button') ?>
-        </a>
-    </div>
-<?php endif; ?>
-</div>
+                                <?php if($this->oauth->is_active('microsoft')): ?>
+                                    <div class="mb-2">
+                                        <a href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=<?= $this->oauth->get_client('microsoft') ?>&redirect_uri=<?= urlencode(base_url('c/microsoft_oauth')) ?>&response_type=code&scope=User.Read%20email%20offline_access"
+                                        class="btn btn-info w-100">
+                                            <i data-feather="grid" class="icon-sm align-middle me-2"></i>
+                                            <?= $this->base->text('microsoft', 'button') ?>
+                                        </a>
+                                    </div>
+                                <?php endif; ?>
+                                </div>
 
-<!-- Add divider if any OAuth provider is active -->
-<?php if($this->oauth->is_active('github') || $this->oauth->is_active('google') || $this->oauth->is_active('discord') || $this->oauth->is_active('microsoft') || $this->oauth->is_active('facebook')): ?>
-    
-<?php endif; ?>
+                                <!-- Add divider if any OAuth provider is active -->
+                                <?php if($this->oauth->is_active('github') || $this->oauth->is_active('google') || $this->oauth->is_active('discord') || $this->oauth->is_active('microsoft') || $this->oauth->is_active('facebook')): ?>
+                                    
+                                <?php endif; ?>
 
                                 <div class="mt-5 text-center">
                                     <p class="text-muted mb-0">
